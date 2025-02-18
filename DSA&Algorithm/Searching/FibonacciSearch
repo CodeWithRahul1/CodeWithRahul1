@@ -1,0 +1,51 @@
+def fibonacci_search(arr, x):
+    n = len(arr)
+    if n == 0:
+        return -1
+
+    # Initialize Fibonacci numbers
+    fib1, fib2 = 0, 1
+    fib3 = fib1 + fib2
+
+    # Find the smallest Fibonacci number greater than or equal to n
+    while fib3 < n:
+        fib1, fib2 = fib2, fib3
+        fib3 = fib1 + fib2
+
+    # Initialize variables for the current and previous split points
+    offset = -1
+    while fib3 > 1:
+        i = min(offset + fib2, n-1)
+
+        # If x is greater than the value at index i, move the split point to the right
+        if arr[i] < x:
+            fib3 = fib2
+            fib2 = fib1
+            fib1 = fib3 - fib2
+            offset = i
+
+        # If x is less than the value at index i, move the split point to the left
+        elif arr[i] > x:
+            fib3 = fib1
+            fib2 = fib2 - fib1
+            fib1 = fib3 - fib2
+
+        # If x is equal to the value at index i, return the index
+        else:
+            return i
+
+    # If x is not found in the array, return -1
+    if fib2 == 1 and arr[offset+1] == x:
+        return offset + 1
+    else:
+        return -1
+
+
+
+
+# Driver Code
+arr = [10, 22, 35, 40, 45, 50,
+    80, 82, 85, 90, 100,235]
+n = len(arr)
+x = 235
+print(fibonacci_search(arr, x))
