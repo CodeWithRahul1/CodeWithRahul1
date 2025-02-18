@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Rahul 👋</h1>
 
 <p align="center">
-  🚀 <strong>Python Engineer | AI Enthusiast | REST API | Data ETL | AWS | Database Optimization</strong>  
+  🚀 <strong>Python Engineer | AI Enthusiast | Web Application |REST API | Data ETL | AWS | Database Optimization</strong>  
 </p>
 
 <p align="center">
