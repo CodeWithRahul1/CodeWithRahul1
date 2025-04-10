@@ -1,3 +1,14 @@
+GIL?
+model manager
+workers
+args, **kargs
+URI
+PATCH PUT
+SELECT_RELETD
+PREFETCH RELETED
+MRO method
+
+
 1. What do you understand by RESTful Web Services?
 2. Define Messaging in terms of RESTful web services.
 3. Can you tell the disadvantages of RESTful web services?
