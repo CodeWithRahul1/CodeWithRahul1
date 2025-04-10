@@ -2,10 +2,10 @@ GIL?
 model manager
 workers
 args, **kargs
-URI
+URI= URL((Uniform Resource LOCATER)) + URN((Uniform Resource Name))
 PATCH PUT
-SELECT_RELETD
-PREFETCH RELETED
+SELECT_RELETD  (Follows ForeignKey, OneToOne, and optional reverse OneToOne relationships.)
+PREFETCH RELETED (Works for ManyToMany and reverse ForeignKey relationships.)
 MRO method
 
 
