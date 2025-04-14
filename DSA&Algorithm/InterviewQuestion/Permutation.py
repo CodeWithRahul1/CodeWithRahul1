@@ -11,10 +11,10 @@ def permutation(lst):
    
     for i in range(len(lst)):
        m = lst[i]       
-       remLst = lst[:i] + lst[i+1:]       
+       remLst = lst[:i] + lst[i+1:]
+       print(remLst)
        for p in permutation(remLst):
-           l.append([m] + p)
-           print(l)
+           l.append([m] + p)           
     return l
 
 data = [1,2,3]
