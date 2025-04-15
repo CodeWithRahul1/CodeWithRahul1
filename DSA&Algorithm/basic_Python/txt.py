@@ -35,3 +35,19 @@ person = Person()
 
 make_it_quack(duck)   # Output: Quack!
 make_it_quack(person) # Output: I'm pretending to be a duck!
+
+
+
+
+'''✅ What is a Mixin?
+A Mixin is a special type of class used to add reusable functionality to other classes through multiple inheritance — without being a complete class on its own.
+
+In simpler terms:
+
+A Mixin is a helper class that provides extra methods or behavior to another class, without becoming the base or parent class of that object’s main functionality.
+
+Mixins are not meant to be instantiated on their own — they are designed to be "mixed in" with other classes to extend behavior.'''
+
+
+'''🧾 Summary for Interview
+A Mixin is a lightweight class that provides reusable behavior and is intended to be inherited alongside other classes. It promotes code reuse and clean separation of concerns. In Django, mixins are commonly used in class-based views to add functionality like login protection, permission checks, or CRUD features.'''
