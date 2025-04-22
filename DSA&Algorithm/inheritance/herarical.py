@@ -12,7 +12,7 @@ class child1(parent):
 
 
 class child2(parent):
-
+    
     def __init__(self, parrent_name, child2_name):
         self.child2_name = child2_name
         super().__init__(parrent_name)
