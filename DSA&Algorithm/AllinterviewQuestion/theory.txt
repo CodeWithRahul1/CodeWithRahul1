@@ -1,0 +1,2 @@
+GIL- Global Interpreter loc (FOR i/O-bond) task use threading concept 
+URI
