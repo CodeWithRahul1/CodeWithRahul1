@@ -70,6 +70,7 @@ Design for growth.
         AWS (EC2, S3, RDS, Lambda, SQS, ECS)
         GCP / Azure equivalents
         Deployment models (PaaS vs IaaS)
+        
 
 🔷 10. Design Patterns & Principles
     Architect maintainable systems.

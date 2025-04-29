@@ -1,0 +1,63 @@
+Informational Responses (100-199)
+
+100 Continue: The server has received the request headers and the client should proceed to send the request body.
+101 Switching Protocols: The server is switching protocols as requested by the client, usually from HTTP/1.1 to WebSocket.
+102 Processing: The server has accepted the request and is processing it, but no response is available yet.
+103 Early Hints: The server is returning some response headers before the final response.
+
+Successful Responses (200-299)
+
+200 OK: The request was successful and the response body contains the requested data.
+201 Created: The request was successful and a new resource was created on the server.
+202 Accepted: The request was accepted but has not been processed yet.
+203 Non-Authoritative Information: The server is returning a response that is not authoritative, meaning it's a cached copy or from another source.
+204 No Content: The server has successfully processed the request, but there is no content to return in the response body.
+205 Reset Content: The server has successfully processed the request and is sending a new set of headers to reset the client's view.
+206 Partial Content: The server has successfully processed the partial GET request for the specified range of data.
+
+Redirection Responses (300-399)
+
+300 Multiple Choices: The requested resource can be accessed through multiple locations, and the client needs to choose one.
+301 Moved Permanently: The requested resource has been permanently moved to a new location, and the client should update its bookmarks or links.
+302 Found: The requested resource was found at another location, but this is only temporary (use 301 for permanent moves).
+303 See Other: The server provides an alternative URI on another resource that can fulfill the request.
+304 Not Modified: The requested resource has not changed since the last time it was accessed by the client.
+305 Use Proxy: Many HTTP clients (such as Mozilla and Internet Explorer) do not correctly handle this status code.
+306 Switch Proxy: No longer used in most modern browsers.
+307 Temporary Redirect: The requested resource has been temporarily moved to another location, but it will return to the original location in the future.
+308 Permanent Redirect: This means that the resource is now permanently located at another URI, specified by the Location header returned in the response.
+
+Client Error Responses (400-499)
+
+400 Bad Request: The server cannot or will not process the request due to something that is perceived as a client-side error (e.g., malicious data, too large payload, etc.).
+401 Unauthorized: The request has not been applied because it lacks valid authentication credentials for the target resource.
+402 Payment Required: The user has sent a request to the server but must first fulfill certain conditions before access is granted.
+403 Forbidden: The client does not have permission to perform this action (e.g., accessing directory listings, modifying files).
+404 Not Found: The requested resource could not be found on the server.
+405 Method Not Allowed: The HTTP method used in the request is not supported by the server for this particular resource.
+406 Not Acceptable: The server cannot produce a response that satisfies the conditions specified in the 'Accept' headers of the client's request.
+407 Proxy Authentication Required: Similar to 401, but authentication is required to access the proxy.
+408 Request Timeout: The server timed out waiting for the request.
+409 Conflict: A conflict was encountered during a PUT operation (usually indicates that an edit conflict has occurred).
+410 Gone: Indicates that the requested resource is no longer available and will not be available again in the future.
+411 Length Required: The client's request contains headers which imply the presence of a payload body, but there was no actual message body sent (or an empty request body).
+412 Precondition Failed: One or more conditions given in the request header fields evaluated to false when tested on the server.
+413 Payload Too Large: The client has provided too much data and exceeded the maximum allowed size for a request entity-body.
+414 URI Too Long: The HTTP request contained a URL that exceeds the maximum limit allowed by the web server or proxy.
+415 Unsupported Media Type: The client has requested a format which is not supported by the server for this resource.
+416 Range Not Satisfiable: A server cannot deliver an entity with the given range specification and therefore declines to satisfy the request.
+417 Expectation Failed: The expectation specified in the request headers was not fulfilled.
+
+Server Error Responses (500-599)
+
+500 Internal Server Error: This response status code indicates that a generic error has occurred on the server, which prevents it from fulfilling the request.
+501 Not Implemented: The method used by the client is not supported in this context by the resource identified by the requested URI.
+502 Bad Gateway: This error response means that the server while acting as a gateway or proxy received an invalid response from the upstream server, usually because it has either encountered internal error states, crashed, or timed out.
+503 Service Unavailable: The service cannot currently be used due to its temporary overloading or because of maintenance in progress.
+504 Gateway Timeout: Similar to a 408 Timeout but for gateways; occurs when the server did not receive an answer from another upstream server within the specific time limit it had set for such purpose.
+505 HTTP Version Not Supported: The requested version is not supported by the server and so cannot be handled, hence cannot fulfill the intended use as expected.
+506 Variant Also Negotiates: Indicates that the variant also exists in a negotiation for the given URL (it's similar to 300 but specific to content that was negotiated upon with specific preferences or constraints).
+507 Insufficient Storage: Server has insufficient space for fulfilling request due resource limitation, meaning available storage is less than needed to fulfill the intended goal.
+508 Loop Detected: The server terminated an operation because it encountered an infinite loop while processing a request with "Depth: infinity".
+510 Not Extended: The request headers need further extension before its fulfillment can take place which at that particular moment cannot be accommodated or proceeded by requested resource.
+511 Network Authentication Required: Indicates that the client needs to authenticate to gain network access.

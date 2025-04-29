@@ -6,6 +6,7 @@
     Monolith vs Microservices
     Clean architecture layers
     Horizontal vs vertical scaling
+    
     🛠️ Tasks:
         Refactor a Django app using services + repositories layer
 
