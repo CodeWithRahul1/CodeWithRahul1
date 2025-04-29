@@ -1,0 +1,109 @@
+🎯 Personalized 12-Week Study Plan for System Architecture (Django-Focused)
+
+🔹 Week 1–2: Core Architecture & Scalable App Design
+    📘 Topics:
+
+    Monolith vs Microservices
+    Clean architecture layers
+    Horizontal vs vertical scaling
+    🛠️ Tasks:
+        Refactor a Django app using services + repositories layer
+
+    📚 Resource:
+            https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/
+
+🔹 Week 3–4: Caching, Redis & Session Management
+    📘 Topics:
+        Caching strategies: write-through, lazy, eviction
+        Redis use cases (cache, sessions, pub/sub)
+
+    🛠️ Tasks:
+        Implement page + fragment caching with Redis in Django
+        Use Redis for user sessions and inspect keys via redis-cli
+
+    📚 Resource:
+        https://realpython.com/caching-in-django-with-redis/
+
+🔹 Week 5–6: Background Jobs & Async Systems
+    📘 Topics:
+        Message queues, brokers
+        Celery + Redis + Django integration
+        Retry patterns, dead-letter queues
+
+    🛠️ Tasks:
+        Offload email sending or heavy tasks to Celery
+        Use Flower to monitor Celery workers
+
+    📚 Resource:
+        https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
+
+
+🔹 Week 7–8: Databases & Data Modeling
+    📘 Topics:
+        Normalization, indexes, joins
+        PostgreSQL vs MongoDB vs Redis
+        Sharding, replication, CAP theorem
+
+    🛠️ Tasks:
+        Profile and optimize Django ORM queries
+        Try MongoDB (via Django MongoEngine) for a document-heavy app
+
+    📚 Resource:
+        https://www.postgresql.org/docs/current/using-explain.html
+
+🔹 Week 9: Security & Auth Architecture
+    📘 Topics:
+        OAuth2, JWT, session-based auth
+        Rate limiting, XSS/CSRF, secure headers
+
+    🛠️ Tasks:
+        Add JWT auth to Django REST API
+        Implement login throttling with Django Ratelimit
+
+    📚 Resource:
+        https://docs.djangoproject.com/en/5.2/topics/security/
+
+🔹 Week 10: DevOps & CI/CD
+    📘 Topics:
+        GitHub Actions / GitLab CI
+        Docker, NGINX, Gunicorn
+        Infrastructure as Code: Terraform basics
+
+    🛠️ Tasks:
+
+        Build and deploy Django + Postgres app with Docker to AWS EC2
+        Set up CI/CD with GitHub Actions for tests + deployment
+
+    📚 Resource:
+        https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
+
+🔹 Week 11: System Design Patterns
+    📘 Topics:
+        CQRS, Event Sourcing, Pub/Sub
+        Circuit breaker, bulkhead, saga pattern
+
+    🛠️ Tasks:
+
+        Design a simple Django app using Event-Driven Architecture (e.g., signals + Redis Pub/Sub)
+
+    📚 Resource:
+        https://github.com/madd86/awesome-system-design
+
+🔹 Week 12: Mock System Design Interviews
+    📘 Topics:
+        Design Twitter, Instagram, or a task queue
+        Bottlenecks, latency, and trade-offs            
+
+    🛠️ Tasks:
+        Do 2 mock interviews with a peer or mentor
+        Write system design docs using diagrams
+
+    📚 Resource:
+        https://www.educative.io/courses/grokking-the-system-design-interview
+
+⚙️ Optional Tools to Learn (over time):
+    Kubernetes (K8s)
+    Prometheus + Grafana (monitoring)
+    NATS or Kafka (event-driven infra)
+    API Gateway (e.g., Kong or AWS API Gateway)
+

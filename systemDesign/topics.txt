@@ -1,0 +1,82 @@
+🔷 1. Core System Design Concepts
+    Learn how to design systems that scale and handle failures gracefully.
+    ✅ Topics to Learn:
+        Monolith vs Microservices architecture
+        Layered architecture (e.g., controller, service, repository)
+        API design (REST, GraphQL, gRPC)
+        Load balancing & scaling
+        Stateless vs Stateful services
+        Fault tolerance, retries, timeouts
+
+🔷 2. Databases (Relational + NoSQL)
+    ✅ Learn:
+        PostgreSQL / MySQL: ACID, joins, indexing, schema design
+        NoSQL (MongoDB, Redis, Cassandra): Key-value, document, column stores
+        Sharding, replication, partitioning
+        CAP theorem
+
+🔷 3. Caching Strategies
+    Caching is key to high-performance systems.
+    ✅ Learn:
+        Redis / Memcached
+        In-memory vs CDN (Cloudflare, Fastly)
+        Cache invalidation patterns (write-through, lazy loading)
+
+🔷 4. Message Queues & Async Processing
+    Decouple services and handle background jobs.
+
+    ✅ Learn:
+        Celery + Redis/RabbitMQ
+        Kafka / SQS / PubSub (for event-driven systems)
+        Retry queues, dead-letter queues
+
+🔷 5. Networking & Communication
+    Understand how services communicate.
+
+    ✅ Learn:
+        HTTP, WebSockets, gRPC
+        REST vs RPC
+        API Gateway vs Load Balancer
+        DNS, SSL, TCP/IP basics
+
+🔷 6. DevOps & CI/CD
+Ship code fast and safely.
+    ✅ Learn:
+        Docker & container orchestration (Kubernetes)
+        CI/CD tools: GitHub Actions, Jenkins, GitLab CI
+        Infrastructure as Code (Terraform, Ansible)
+        Monitoring/logging (Prometheus, Grafana, ELK stack)
+
+🔷 7. Security
+    Architect secure systems.
+
+    ✅ Learn:
+            Authentication: OAuth2, JWT, SSO
+            Authorization: RBAC, ABAC
+            HTTPS, rate limiting, CORS
+            Secure password storage (bcrypt, Argon2)    
+
+🔷 8. Scalability & Performance
+Design for growth.
+    ✅ Learn:
+        Horizontal vs vertical scaling
+        CDN usage (for static content)
+        Throttling, rate limiting
+        Profiling and optimization (memory, CPU, DB)
+
+🔷 9. Cloud Platforms
+    Use services instead of reinventing the wheel.
+    ✅ Focus on:
+        AWS (EC2, S3, RDS, Lambda, SQS, ECS)
+        GCP / Azure equivalents
+        Deployment models (PaaS vs IaaS)
+
+🔷 10. Design Patterns & Principles
+    Architect maintainable systems.
+
+        ✅ Learn:
+                SOLID principles
+                Common patterns: Factory, Singleton, Observer, Strategy
+                Domain-driven design (DDD)
+                Event-driven architecture
+
