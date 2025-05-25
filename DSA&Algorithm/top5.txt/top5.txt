@@ -1,0 +1,197 @@
+1. Arrays
+Find the duplicate number (Floyd’s Tortoise and Hare)
+
+Kadane’s Algorithm (Maximum Subarray Sum)
+
+Merge Intervals
+
+Two Sum
+
+Next Permutation
+
+2. Strings
+Longest Palindromic Substring
+
+Group Anagrams
+
+Longest Common Prefix
+
+Implement strStr() / substring search
+
+Valid Anagram
+
+3. Linked List
+Reverse a Linked List
+
+Detect Cycle in Linked List
+
+Merge Two Sorted Lists
+
+Intersection of Two Linked Lists
+
+Add Two Numbers
+
+4. Stacks and Queues
+Valid Parentheses
+
+Min Stack
+
+Daily Temperatures
+
+Evaluate Reverse Polish Notation
+
+Sliding Window Maximum
+
+5. Trees (Binary Tree, BST)
+Inorder / Preorder / Postorder Traversal
+
+Maximum Depth of Binary Tree
+
+Lowest Common Ancestor of BST
+
+Validate Binary Search Tree
+
+Serialize and Deserialize Binary Tree
+
+6. Heaps / Priority Queues
+Kth Largest Element in an Array
+
+Top K Frequent Elements
+
+Merge K Sorted Lists
+
+Find Median from Data Stream
+
+Sliding Window Maximum
+
+7. Hashing / HashMap / HashSet
+Two Sum
+
+Subarray Sum Equals K
+
+Longest Consecutive Sequence
+
+Group Anagrams
+
+Isomorphic Strings
+
+8. Recursion and Backtracking
+N-Queens
+
+Subsets / Subsets II
+
+Permutations / Permutations II
+
+Word Search
+
+Sudoku Solver
+
+9. Dynamic Programming
+Longest Increasing Subsequence
+
+0/1 Knapsack
+
+Edit Distance
+
+Coin Change
+
+House Robber (I, II)
+
+10. Greedy Algorithms
+Activity Selection Problem
+
+Fractional Knapsack
+
+Jump Game
+
+Gas Station
+
+Minimum Number of Platforms
+
+11. Graphs (BFS/DFS, Union-Find, Shortest Path)
+Number of Islands
+
+Clone Graph
+
+Course Schedule (Topological Sort)
+
+Dijkstra’s Algorithm
+
+Kruskal’s Algorithm
+
+12. Sliding Window
+Maximum Sum Subarray of Size K
+
+Longest Substring Without Repeating Characters
+
+Permutation in String
+
+Minimum Window Substring
+
+Longest Repeating Character Replacement
+
+13. Tries (Prefix Tree)
+Implement Trie (Insert, Search)
+
+Word Search II
+
+Replace Words
+
+Prefix and Suffix Search
+
+Longest Word in Dictionary
+
+14. Bit Manipulation
+Single Number
+
+Number of 1 Bits
+
+Counting Bits
+
+Subsets using Bitmask
+
+Power of Two
+
+15. Mathematics
+Sieve of Eratosthenes
+
+GCD, LCM using Euclid’s Algorithm
+
+Modular Exponentiation
+
+Count Primes
+
+Rotate Matrix (90 degrees)
+
+16. Sorting and Searching
+Binary Search in Rotated Sorted Array
+
+Search a 2D Matrix
+
+Kth Smallest Element in Sorted Matrix
+
+Median of Two Sorted Arrays
+
+Merge Sort / Quick Sort
+
+17. Segment Tree / Binary Indexed Tree
+Range Sum Query (Immutable / Mutable)
+
+Range Minimum Query
+
+Count of Smaller Numbers After Self
+
+Number of Inversions
+
+Lazy Propagation
+
+18. Disjoint Set (Union-Find)
+Connected Components in Graph
+
+Detect Cycle in Undirected Graph
+
+Accounts Merge
+
+Number of Provinces
+
+Redundant Connection
