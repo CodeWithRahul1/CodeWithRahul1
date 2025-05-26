@@ -1,24 +1,24 @@
 1. Arrays
-Find the duplicate number (Floyd’s Tortoise and Hare)
+    Find the duplicate number (Floyd’s Tortoise and Hare)
 
-Kadane’s Algorithm (Maximum Subarray Sum)
+    Kadane’s Algorithm (Maximum Subarray Sum)
 
-Merge Intervals
+    Merge Intervals
 
-Two Sum
+    Two Sum
 
-Next Permutation
+    Next Permutation
 
 2. Strings
-Longest Palindromic Substring
+    Longest Palindromic Substring
 
-Group Anagrams
+    Group Anagrams
 
-Longest Common Prefix
+    Longest Common Prefix
 
-Implement strStr() / substring search
+    Implement strStr() / substring search
 
-Valid Anagram
+    Valid Anagram
 
 3. Linked List
 Reverse a Linked List
